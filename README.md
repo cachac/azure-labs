@@ -30,7 +30,9 @@ ssh -i <KEY>.pem azureuser@<PUBLIC_IP>
 ```
 
 # 4. Setup lab
+```
 
+```
 
 
 

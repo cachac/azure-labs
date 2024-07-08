@@ -20,3 +20,7 @@ sed -i "s/plugins=(git)/plugins=(git zsh-history-substring-search)/g" /home/azur
 
 # Install Nginx + Code Server
 sudo apt install -y nginx
+
+curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/codeserver.conf
+curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/webserver.conf
+
