@@ -14,25 +14,32 @@ Laboratorios para prácticas en Azure
 - Create
 - Download private key and create resource
 
+# 3. Accesos
+## 3.1. Networking (VM)
+- Network settings
+- Create port rule
+  - Inbound
+  - Destination port ranges: *
+  - Protocol: any
+  - Action: Allow
+  - Priority: 100
 
-# 3. Conectar a la terminal
+# 4. Conectar a la terminal
 - Goto resource
-## 3.1. Overview
+## 4.1. Overview
 - Copiar la IP pública
 
-## 3.2. Connect Azure CLI (Portal)
+## 4.2. Connect Azure CLI (Portal)
 - Connect
 - SSH using Azure CLI
 
-## 3.3. Opcional SSH por terminal
+## 4.3. Opcional SSH por terminal
 ```
 ssh -i <KEY>.pem azureuser@<PUBLIC_IP>
 ```
 
-# 4. Setup lab
-```
+# 5. Setup lab
 
-```
 
 
 
