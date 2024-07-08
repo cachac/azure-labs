@@ -23,4 +23,4 @@ sudo apt install -y nginx
 
 curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/codeserver.conf
 curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/webserver.conf
-
+curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/config.yaml
