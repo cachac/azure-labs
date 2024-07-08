@@ -40,6 +40,9 @@ ssh -i <KEY>.pem azureuser@<PUBLIC_IP>
 
 # 5. Setup lab
 
+```
+curl https://raw.githubusercontent.com/cachac/azure-labs/main/script.sh | sh
+```
 
 
 

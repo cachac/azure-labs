@@ -1,17 +1,12 @@
-sudo su
-echo -e "password\npassword\n" | passwd azureuser
-su azureuser
-cd /home/azureuser
-
 sudo apt update -y
 
 # Install Nginx + Code Server
-sudo apt install -y nginx
+# sudo apt install -y nginx
 curl -fsSL https://code-server.dev/install.sh | sh
 sudo systemctl enable --now code-server@$USER
 
-curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/codeserver.conf
-curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/webserver.conf
+#curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/codeserver.conf
+#curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/webserver.conf
 curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/config.yaml
 
 mv config.yaml .config/code-server/config.yaml
