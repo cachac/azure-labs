@@ -53,5 +53,10 @@ su azureuser
 cd /home/azureuser
 ```
 ```
-curl | sh
+curl https://raw.githubusercontent.com/cachac/azure-labs/main/zshrc.sh | sh
+```
+```sh
+chsh -s $(which zsh)
+
+source ~/.zshrc
 ```
