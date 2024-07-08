@@ -39,6 +39,12 @@ ssh -i <KEY>.pem azureuser@<PUBLIC_IP>
 ```
 
 # 5. Setup lab
+```sh
+sudo su
+echo -e "password\npassword\n" | passwd azureuser
+su azureuser
+cd /home/azureuser
+```
 ```
 curl https://raw.githubusercontent.com/cachac/azure-labs/main/script.sh | sh
 ```
@@ -46,12 +52,6 @@ curl https://raw.githubusercontent.com/cachac/azure-labs/main/script.sh | sh
 > <PUBLIC_IP>:3030
 
 ## 5.1. Opcional Terminal ZSH
-```sh
-sudo su
-echo -e "password\npassword\n" | passwd azureuser
-su azureuser
-cd /home/azureuser
-```
 ```
 curl https://raw.githubusercontent.com/cachac/azure-labs/main/zshrc.sh | sh
 ```
