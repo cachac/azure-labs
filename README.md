@@ -34,7 +34,7 @@ Laboratorios para prácticas en Azure
 - SSH using Azure CLI
 
 ## 4.3. Opcional SSH por terminal
-```
+```sh
 ssh -i <KEY>.pem azureuser@<PUBLIC_IP>
 ```
 
@@ -42,5 +42,16 @@ ssh -i <KEY>.pem azureuser@<PUBLIC_IP>
 ```
 curl https://raw.githubusercontent.com/cachac/azure-labs/main/script.sh | sh
 ```
-## Acceso por browser
+## 5.2. Acceso por browser
 > <PUBLIC_IP>:3030
+
+## 5.1. Opcional Terminal ZSH
+```sh
+sudo su
+echo -e "password\npassword\n" | passwd azureuser
+su azureuser
+cd /home/azureuser
+```
+```
+curl | sh
+```
