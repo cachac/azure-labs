@@ -4,6 +4,7 @@ sudo apt update -y
 curl -fsSL https://code-server.dev/install.sh | sh
 sudo systemctl enable --now code-server@$USER
 
+echo sleep 20...
 sleep 20
 
 curl -O https://raw.githubusercontent.com/cachac/azure-labs/main/config.yaml

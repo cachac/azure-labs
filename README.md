@@ -51,12 +51,3 @@ curl https://raw.githubusercontent.com/cachac/azure-labs/main/script.sh | sh
 ## 5.2. Acceso por browser
 > <PUBLIC_IP>:3030
 
-## 5.1. Opcional Terminal ZSH
-```
-curl https://raw.githubusercontent.com/cachac/azure-labs/main/zshrc.sh | sh
-```
-```sh
-chsh -s $(which zsh)
-
-source ~/.zshrc
-```
