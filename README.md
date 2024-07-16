@@ -4,8 +4,8 @@ Laboratorios para prácticas en Azure
 # 1. Virtual machine
 ## 1.1. Basics
 - Create Azure Virtual Machine
-- Resourse group: rg- <CURSO> - <ESTUDIANTE>
-- Name: vm <CURSO> <ESTUDIANTE>
+- Resourse group: rg- CURSO - ESTUDIANTE
+- Name: vm CURSO ESTUDIANTE
 - Region: East US
 - Image: Ubuntu server 22.04 LTS - x64 Gen2
 - Size: Standard_B2s - 2vcpus, 4 GiB memory ($30/mo)
